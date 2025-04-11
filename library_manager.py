@@ -2,11 +2,11 @@ import streamlit as st  # type: ignore
 import pandas as pd  # type: ignore
 import json
 import os
-from datetime import datetime
+from datetime import datetime, time
 import random
-import plotly.express as px
-import plotly.graph_objects as go
-from streamlit_lottie import st_lottie
+import plotly.express as px # type: ignore
+import plotly.graph_objects as go # type: ignore
+from streamlit_lottie import st_lottie # type: ignore
 import requests  # type: ignore
 
 # set page configration
